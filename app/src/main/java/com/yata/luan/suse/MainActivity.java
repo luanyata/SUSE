@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.yata.luan.suse.Fragments.GraficosFragment;
 import com.yata.luan.suse.Fragments.OcorrenciaFragment;
 import com.yata.luan.suse.Fragments.PesquisaFragment;
 
@@ -90,7 +91,8 @@ public class MainActivity extends AppCompatActivity
 
 
         if (id == R.id.nav_inicio) {
-            // Handle the camera action
+            GraficosFragment graficosFragment = new GraficosFragment();
+            fragmentTransaction.replace(R.id.fragment_container,graficosFragment).commit();
         } else if (id == R.id.nav_ocorrencia) {
             OcorrenciaFragment ocorrenciaFragment = new OcorrenciaFragment();
             fragmentTransaction.replace(R.id.fragment_container, ocorrenciaFragment).commit();

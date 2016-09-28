@@ -6,6 +6,12 @@
 
     <string name="action_settings">Settings</string>
 
+    <string name="text_assistente">UPIIIII, sou seu assitente virtual, ajudarei a entender melhor a organização, e ajudarei a trilhar os caminhos para um melhor relacionamento.</string>
+
+    <string name="label_grafico_semana">Estatistica Semanal</string>
+    <string name="label_grafico_mensal">Estatistica Mensal</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
