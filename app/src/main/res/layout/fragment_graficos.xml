@@ -28,7 +28,9 @@
             android:text="@string/label_grafico_semana"
             android:layout_marginTop="13dp"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/labelTitle"
+            android:textSize="@dimen/sizeTitle"/>
     </RelativeLayout>
 
 </FrameLayout>

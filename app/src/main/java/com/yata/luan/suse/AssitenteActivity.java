@@ -15,6 +15,7 @@ public class AssitenteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_assitente);
 
+
         btn_avancar_assistente = (Button) findViewById(R.id.btn_avancar_assistente);
 
         btn_avancar_assistente.setOnClickListener(new View.OnClickListener() {

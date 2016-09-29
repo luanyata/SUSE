@@ -18,7 +18,9 @@
         android:layout_marginBottom="168dp"
         android:id="@+id/textView2"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/labelTitle"
+        android:textSize="16sp"/>
 
     <Button
         android:text="Avançar"
