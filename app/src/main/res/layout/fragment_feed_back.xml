@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yata.luan.suse.Fragments.FeedBackFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:text="@string/titleFeedBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_marginTop="42dp"
+            android:textSize="@dimen/sizeTitle"
+            android:textColor="@color/labelTitle"
+            android:layout_below="@+id/gafanhoto"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="@string/textFeedBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:gravity="center"
+            android:textSize="@dimen/sizeMensagem"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignLeft="@+id/gafanhoto"
+            android:layout_alignStart="@+id/gafanhoto"
+            android:layout_alignRight="@+id/gafanhoto"
+            android:layout_alignEnd="@+id/gafanhoto" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gafanhoto"
+            android:id="@+id/gafanhoto"
+            android:layout_marginTop="21dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -9,7 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.yata.luan.suse.AssitenteActivity">
+    tools:context="com.yata.luan.suse.AssitenteActivity"
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:text="@string/text_assistente"
@@ -19,8 +20,9 @@
         android:id="@+id/textView2"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/labelTitle"
-        android:textSize="16sp"/>
+        android:textColor="@color/textAssistent"
+        android:gravity="center"
+        android:textSize="@dimen/sizeMensagem"/>
 
     <Button
         android:text="Avançar"

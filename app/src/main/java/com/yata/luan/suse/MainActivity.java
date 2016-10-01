@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.yata.luan.suse.Fragments.FeedBackFragment;
 import com.yata.luan.suse.Fragments.GraficosFragment;
 import com.yata.luan.suse.Fragments.OcorrenciaFragment;
 import com.yata.luan.suse.Fragments.PesquisaFragment;
@@ -91,12 +92,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_ocorrencia) {
             OcorrenciaFragment ocorrenciaFragment = new OcorrenciaFragment();
             fragmentTransaction.replace(R.id.fragment_container, ocorrenciaFragment).commit();
-
         } else if (id == R.id.nav_pesquisa) {
             PesquisaFragment pesquisaFragment = new PesquisaFragment();
             fragmentTransaction.replace(R.id.fragment_container, pesquisaFragment).commit();
         } else if (id == R.id.nav_feedback) {
-
+            FeedBackFragment feedBackFragment = new FeedBackFragment();
+            fragmentTransaction.replace(R.id.fragment_container, feedBackFragment).commit();
         } else if (id == R.id.nav_sair) {
 
         }

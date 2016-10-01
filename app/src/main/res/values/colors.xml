@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#39b44a</color>
     <color name="colorAccent">#278334</color>
     <color name="labelTitle">#000</color>
+    <color name="textAssistent">#fff</color>
 </resources>
